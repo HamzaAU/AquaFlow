@@ -5,12 +5,14 @@ import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import HowItWorks from './components/HowItWorks';
 import AreaChecker from './components/AreaChecker';
+import AIChatbot from './components/AIChatbot';
 import { MessageCircle, Phone, MapPin, Mail, Droplets, CheckCircle2 } from 'lucide-react';
 
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
+      <AIChatbot />
       
       <main className="flex-grow">
         <Hero />
